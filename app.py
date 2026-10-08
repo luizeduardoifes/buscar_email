@@ -15,7 +15,7 @@ quantidade = st.number_input(
     "Quantidade de e-mails",
     min_value=1,
     max_value=100,
-    value=10
+    value=1
 )
 
 if st.button("📨 Buscar e-mails"):
